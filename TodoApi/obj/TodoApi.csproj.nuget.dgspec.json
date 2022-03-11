@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Caio\\Source\\Repos\\todoApi\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\Caio\\source\\repos\\todoApi\\TodoApi\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Caio\\Source\\Repos\\todoApi\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\Caio\\source\\repos\\todoApi\\TodoApi\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Caio\\Source\\Repos\\todoApi\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\Caio\\source\\repos\\todoApi\\TodoApi\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\Caio\\Source\\Repos\\todoApi\\TodoApi\\TodoApi.csproj",
+        "projectPath": "C:\\Users\\Caio\\source\\repos\\todoApi\\TodoApi\\TodoApi.csproj",
         "packagesPath": "C:\\Users\\Caio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Caio\\Source\\Repos\\todoApi\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\Caio\\source\\repos\\todoApi\\TodoApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

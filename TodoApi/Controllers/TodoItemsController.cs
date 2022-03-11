@@ -78,15 +78,21 @@ namespace TodoApi.Controllers
         [HttpPost]
         public async Task<ActionResult<TodoItemDTO>> PostTodoItem(TodoItemDTO todoItemDTO)
         {
+            if (todoItemDTO.Name == null || todoItemDTO.Name.Length <= 0)
+            {
+                return Ok();
+            }
             var todoItem = new TodoItem
             {
-                IsComplete = todoItemDTO.IsComplete,
+                IsComplete = false,
                 Name = todoItemDTO.Name
             };
             _context.TodoItems.Add(todoItem);
             await _context.SaveChangesAsync();
             //return CreatedAtAction("GetTodoItem", new { id = todoItem.Id }, todoItem);
+
             return CreatedAtAction(nameof(GetTodoItem), new { id = todoItem.Id }, ItemToDTO(todoItem));
+            
         }
 
         // DELETE: api/TodoItems/5

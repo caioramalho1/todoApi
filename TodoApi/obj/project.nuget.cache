@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oQgBsPytTh4kgKs+2TUaJCKkP49rwexBoMJL121ft0R16jlRTmsWf4QEizS8ejYgoqfN1LLIFXyo9TfvmwuwJg==",
+  "dgSpecHash": "S5bwgHsYu42sEYwGTFFRQ+bni9+OUGWPK/IaN7bUquZMIw/AIOK4Aq/wYuFgwG3wWEGgzuKM1xt6C1AQHr3JCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Caio\\Source\\Repos\\todoApi\\TodoApi\\TodoApi.csproj",
+  "projectFilePath": "C:\\Users\\Caio\\source\\repos\\todoApi\\TodoApi\\TodoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Caio\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Caio\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
